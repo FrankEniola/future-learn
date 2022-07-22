@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.navbar{
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid  rgb(238, 8, 200);;
+
+}
+.nav{
+   width: 20%;
+}
+.images{
+    width: 40%;
+}
+.items{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.items ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 700;
+}
+.items ul a{
+    text-decoration: none;
+    color:  rgb(238, 8, 200);
+}
+.he{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.body{
+    width: 40%;
+}
+.form-1{
+    padding: 10px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.form2{
+    border: none;
+    color:rgb(238, 8, 200);
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.form3{
+    border: none;
+    padding: 10px ;
+    background-color:rgb(238, 8, 200);
+    color: white;
+    cursor: pointer;
+}
+.image{
+    width: 40%;
+}
+.secondDiv{
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text{
+    width: 60%;
+    margin-top: 60px;
+}
+.header{
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 40px;
+}
+.para{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.btn{
+    border: none;
+    background-color: rgb(238, 8, 200);
+    color: white;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.head-3{
+    margin-top: 90px;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+.head2{
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
+}
+.pics{
+   width: 10%;
+   display: flex;
+   flex-direction: row;
+   margin-left: 120px;
+}
+.img{
+    margin-right: 10px;
+    padding-left: 30px;
+}
+.image-3{
+    width: 50%;
+    background: url("./809b80c5-2a91-4006-8c68-4a697977105a.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.image-4{
+    width: 50%;
+    background: url("./5a874736-6c57-4fb0-8938-eb4bb6ef69a3.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 25%;
+    margin: 10px;
+}
+.card-2{
+    width: 25%;
+    margin: 10px;
+}
+.card4{
+    width: 25%;
+    margin: 10px;
+}
+.card-3{
+    width: 25%;
+    margin: 10px;
+}
+.total{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-5{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+    line-height: 40px;
+}
+.text-6{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+    line-height: 40px; 
+}
+.pot{
+    border: 2px solid white;
+    margin-right: 30rem;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    cursor: pointer; 
+}
+.put{
+    border: 2px solid white;
+    margin-right: 30rem;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    cursor: pointer; 
+}
+.top{
+    text-align: center;
+    margin-top: 5px;
+}
+.sub{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.bus{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.van{
+    margin-top: 20px;
+}
+.three{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+.pic1{
+    width: 33%;
+    background: url(./man\ \(1\).jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    width: 33%;
+    background: url(./doc.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+.pic3{
+    width: 33%;
+    background: url(./man\ \(2\).jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: top;
+}
+.cap{
+    margin-top: 100px;
+}
+.cat{
+    margin-top: 100px;
+}
+.cab{
+    margin-top: 100px;
+}
+.submit{
+    background-color: white;
+    color: rgb(238, 8, 200) ;
+    padding: 10px;
+    border-color:rgb(238, 8, 200) ;
+    margin-top: 30px;
+    margin-left: 38.5rem;
+    cursor: pointer;
+}
+.me{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(141, 136, 148);
+    color: white;
+    background-size: contain;
+    line-height: 35px;
+}
+.footer a{
+    text-decoration: none;
+}
+.glass{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lol{
+    margin-left: 30px;
+
+}
+.lot{
+    margin-left: 30px;
+}
+.file{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.prof{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fan{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Form{
+    border: none;
+    padding: 8px;
+    background-color: rgb(81, 144, 240);
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* card section */
+.bg-explore{
+    padding: 30px 60px;
+}
+
+.title-div{
+    text-align: center;
+}
+
+.title{
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.card-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cardp{
+    width: 22%;
+    margin-right: 15px;
+    line-height: 20px;
+    background-color: rgb(255, 247, 247);
+    
+}
+.jump{
+    width: 22%;
+    margin-right: 15px;
+    line-height: 20px;
+    background-color: rgb(255, 247, 247);
+}
+.carde{
+    width: 22%;
+    margin-right: 15px;
+    line-height: 25px;
+    background-color: rgb(255, 247, 247);
+}
+.cardi{
+    width: 22%;
+    margin-right: 15px;
+    line-height: 20px;
+    background-color: rgb(255, 247, 247);
+}
+.lead{
+    color: gray;
+    font-weight: 900;
+    font-size: 16px;
+}
+.new{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 30, 80);
+    padding: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.raph{
+    font-weight:500 ;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.now{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 30, 80);
+    padding: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.buton{
+    background-color:  rgb(241, 3, 150);
+    padding: 10px 79.5px;
+    border: 2px solid  rgb(241, 3, 150);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.8s linear;
+    margin-top: 250px;
+    cursor: pointer;
+}
+.buton:hover{
+    background-color: blue;
+    border: none;
+}
+.graph{
+    font-weight: 500;
+    line-height: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.butons{
+    background-color:  rgb(241, 3, 150);
+    padding: 10px 79.5px;
+    border: 2px solid  rgb(241, 3, 150);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.8s linear;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.butons:hover{
+   background-color: blue;
+   border: none;
+}
+.lead1{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+}
+.hide{
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 18px;
+}
+.bottn{
+    background-color:  rgb(241, 3, 150);
+    padding: 10px 79.5px;
+    border: 2px solid  rgb(241, 3, 150);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.8s linear;
+    margin-top: 257px;
+    cursor: pointer;
+}
+.bottn:hover{
+    background-color:  blue;
+    border: none;
+
+}
+.lead2{
+    color: gray;
+    font-size: 16px;
+}
+.lass{
+    font-size: 16px;
+}
+.hide3{
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 17px;
+}
+.botton{
+    background-color:  rgb(241, 3, 150);
+    padding: 10px 79.5px;
+    border: 2px solid  rgb(241, 3, 150);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 248px;
+    transition: all 0.8s linear;
+    cursor: pointer;
+}
+.botton:hover{
+    background-color:  blue;
+    border: none;
+}
+/* Media query for mobile devices */
+@media(max-width: 576px){
+    .navbar{
+        flex-direction: column;
+        border-bottom: 2px solid rgb(241, 3, 150);
+    }
+    .nav{
+        width: 100%;
+    }
+    .items{
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    }
+    .items ul{
+        flex-direction: column;
+    }
+    .he{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .images{
+        width: 100px;
+    }
+    .body{
+        display: none;
+    }
+    .secondDiv{
+        flex-direction: column-reverse;
+    }
+    .image{
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .text{
+        width: 100%;
+    }
+    .total{
+        width: 100%;
+        flex-direction: column;
+    }
+    .image-4{
+        width: 100%;
+        font-size: 10px;
+    }
+    .image-3{
+        width: 100%;
+        font-size: 16px;
+    }
+    .top{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .sub{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .bus{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .mid{
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+    .three{
+        flex-direction: column;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100% ;
+    }
+    .card-div{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cardp{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .jump{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cardi{
+        width: 100%;
+    }
+    .carde{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .glass{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .file{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .prof{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .fan{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .pot{
+        width: 100%;
+        flex-direction: column;
+        margin-right: 0rem;
+    }
+    }
